@@ -32,8 +32,8 @@ A style guide for my side projects.
 ## Directory layout
 
 - doc
-  - changelog.md
-  - roadmap.md
+  - CHANGELOG.md
+  - ROADMAP.md
   - design
     - README.md link to all the docs
     - schema.md e.g. database schema
@@ -45,3 +45,46 @@ A style guide for my side projects.
   - Dockerfile
 - Makefile
 - README.md
+
+## Documentation
+
+### Roadmap
+
+For upcoming, order by release number ASC, so recent development is on the top.
+For finished, order by release number DESC. It may not be same as release note so keep it in Roadmap.
+
+```
+## Upcoming
+
+### v0.0.3
+
+- improve compression
+
+### v0.0.4
+
+- add new index schema
+
+## Finished
+
+## v0.0.2
+
+- fix bugs
+
+## v0.0.1
+
+- introduced a new bug
+```
+
+### Changelog
+
+Order by release number DESC, so recent release is on the op
+
+```
+## v0.0.2
+
+- fix bugs
+
+## v0.0.1
+
+- introduced a new bug
+```
