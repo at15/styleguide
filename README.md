@@ -4,7 +4,7 @@ A style guide for my side projects.
 
 ## GitHub
 
-
+- use `UpperCase` for project name
 
 ## Workflow
 
