@@ -2,11 +2,22 @@
 
 A style guide for my side projects.
 
+## TODO
+
+- [ ] links to language specific style guide
+- [ ] merge go style guide from go-learning and dyweb/gommon
+
 ## GitHub
 
-- use `UpperCase` for project name
+- try to use one word as project name
+
+TBD
+
+- use `UpperCase` for project name?
 
 ## Workflow
+
+TODO: this part has changed a lot w/ the new milestone and components based approach, e.g. no longer use issue
 
 ### Design
 
@@ -31,22 +42,37 @@ A style guide for my side projects.
 
 ## Directory layout
 
-- doc
-  - CHANGELOG.md
-  - ROADMAP.md
-  - design
-    - README.md link to all the docs
-    - schema.md e.g. database schema
-  - log
-    - 2020-02
-      - 2020-02-03.md diary with nothing special
-      - 2020-02-04-design-schema.md special events should show up in file name
-- hack
-  - Dockerfile
-- Makefile
-- README.md
+Examples: [benchhub](https://github.com/benchhub/benchhub)
+
+- `doc`
+  - `CHANGELOG.md`
+  - `ROADMAP.md`
+  - `design`
+    - `README.md` link to all design doc that cross multiple components
+    - `schema.md` e.g. database schema
+  - `components`
+    - `comp-1`
+      - `README.md` link to log and milestones, and high level design?
+      - `feature-a.md` big feature on that component that worth a dedicated note
+    - `README.md` tree to all components
+  - `milestones`
+    - `v0.0.1-small-feature-a-of-medium-feature-1`
+      - `README.md` break up features, components and implementation order
+      - `comp-1.md` component notes specific to this milestone
+    - `v0.1.0-medium-feature-1`
+    - `v1.0.0-a-major-release-that-i-will-never-reach`
+    - `README.md` tree to all milestones
+  - `log`
+    - `2020-02-03.md` diary with nothing special
+    - `2020-02-04-design-schema.md` special events should show up in file name
+- `hack`
+  - `Dockerfile`
+- `Makefile`
+- `README.md`
 
 ## Documentation
+
+TODO: this part has changed a lot w/ the new milestone and components based approach
 
 ### Roadmap
 
