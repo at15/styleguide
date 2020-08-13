@@ -1,6 +1,6 @@
 # Style Guide
 
-A style guide for my side projects.
+A style guide for my open source projects.
 
 ## TODO
 
